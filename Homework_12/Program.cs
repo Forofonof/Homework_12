@@ -40,11 +40,13 @@
                 case "sethobby":
                     Console.WriteLine("Введите свое хобби:");
                     userHobby = Console.ReadLine();
+                    Console.WriteLine($"Вы поменяли свое хобби: '{userHobby}'");
                     break;
                 case "SetAge":
                 case "setage":
                     Console.WriteLine("Введите ваш возраст:");
                     userAge = Console.ReadLine();
+                    Console.WriteLine($"Вы поменяли свой возраст: '{userAge} лет.'");
                     break;
                 case "CheckBalance":
                 case "checkbalance":
@@ -54,7 +56,7 @@
                 case "profileinfo":
                     Console.WriteLine($"Ваш никнейм: {userNickname}");
                     Console.WriteLine($"Хобби: {userHobby}");
-                    Console.WriteLine($"Возраст: {userAge}");
+                    Console.WriteLine($"Возраст: {userAge} лет.");
                     break;
                 case "Exit":
                 case "exit":
